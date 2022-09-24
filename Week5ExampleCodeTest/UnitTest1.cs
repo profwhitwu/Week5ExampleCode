@@ -55,7 +55,7 @@ namespace Week5ExampleCodeTest
         public void CalculateFizzBuzz_IsNotDivisibleBy3Or5_ReturnsDefault()
         {
             // arrange
-            var numberToTest = 7;
+            var numberToTest = 1;
 
             // act
             var result = week5Example?.CalculateFizzBuzz(numberToTest);

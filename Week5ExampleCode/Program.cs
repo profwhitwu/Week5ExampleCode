@@ -2,7 +2,15 @@
 {
     public FizzBuzz CalculateFizzBuzz(int numberToTest)
     {
-        return FizzBuzz.Default;
+        if (numberToTest % 3 == 0 && numberToTest % 5 == 0)
+            return FizzBuzz.FizzBuzz;
+        else if (numberToTest % 3 == 0)
+            return FizzBuzz.Fizz;
+        else if (numberToTest % 5 == 0)
+            return FizzBuzz.Buzz;
+        else
+            return FizzBuzz.Default;
+            
     }
 }
 
